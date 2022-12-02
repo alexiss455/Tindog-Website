@@ -1,0 +1,149 @@
+.container-fluid{
+    background-color: #ff4c68;
+    padding: 3% 15% 8%;
+}
+body{
+    margin: 0%;
+}
+#title{
+    color: rgb(255, 255, 255);
+    background-color: #ff4c68;
+}
+
+.meet1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(12, 11, 11);
+}
+p{
+    color: #8f8f8f;
+    line-height: 1;
+}
+
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    
+}
+
+.nav-item{
+    padding: .5em;
+}
+.btnd{
+   margin: 7.5% 3% 0% 0%;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    opacity: .5;
+}
+
+.dogimg{
+    transform: rotate(15deg);
+    position: absolute;
+    
+}
+.head1{
+    padding-top: 10%;
+    
+}
+
+/* mid section */
+
+#features{
+background-color: rgb(255, 255, 255);
+position: relative;
+}
+
+.box2{
+    padding: 7%;
+}
+
+.icons:hover{
+    color: #ff4c68;
+  
+}
+.icons{
+    margin-bottom: .125em;
+    color: #f8a6b2;
+}
+
+/* testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+}
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1.5em;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-logo{
+    width: 15%;
+    margin: 5% 2%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 3% 7%;
+    text-align: center;
+}
+.card{
+    margin: 2% 3.5%;
+}
+
+@media only screen and (max-width: 1028px) {
+    .dogimg{
+        position: static;
+        transform: rotate(0);
+       
+        
+    }
+.img111{
+text-align: center;
+}
+
+
+  }
+
+  #cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10% 30% 10% ;
+   
+  }
+
+#copy{
+    color: rgb(238, 238, 238);
+    line-height: 1.5;
+    font-size: 2rem;
+  }
+#footer{
+    padding: 10%;
+    text-align: center;
+    padding: 10% 30% 0% ;
+}
+.icon-foot{
+    margin: .5em;
+}
